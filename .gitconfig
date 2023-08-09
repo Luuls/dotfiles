@@ -1,0 +1,11 @@
+[user]
+	email = luan13467@hotmail.com
+	name = Luuls
+[status]
+	showUntrackedFiles = all
+[pull]
+	rebase = false
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
