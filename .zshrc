@@ -36,10 +36,10 @@ ZSH_THEME="pixegami-agnoster"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
+# COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -62,16 +62,11 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
-  virtualenv
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# function virtualenv_info {
-#   [ $VIRTUAL_ENV ] && echo '('`basename $VIRTUAL_ENV`') '
-# }
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -101,4 +96,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias la="ls -A"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-alias nvimconf="nvim $HOME/.config/nvim/"
+
