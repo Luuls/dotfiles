@@ -2,4 +2,5 @@
 require("config.lazy")
 
 -- vim.cmd.colorscheme("rose-pine-main")
-vim.cmd.colorscheme("catppuccin-mocha")
+-- vim.cmd.colorscheme("catppuccin-mocha")
+vim.cmd.colorscheme("tokyonight-night")

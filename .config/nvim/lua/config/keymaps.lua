@@ -16,3 +16,7 @@ vim.keymap.set("n", "vie", "ggVG", { desc = "Whole file" })
 vim.keymap.set("n", "yie", "ggyG", { desc = "Whole file" })
 vim.keymap.set("n", "die", "ggdG", { desc = "Whole file" })
 vim.keymap.set("n", "cie", "ggcG", { desc = "Whole file" })
+
+vim.keymap.set("x", "<leader>p", [["_dP]])
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "<leader>c", [["_c]])
