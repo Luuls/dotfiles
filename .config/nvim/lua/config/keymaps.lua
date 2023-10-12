@@ -7,6 +7,9 @@ vim.keymap.set("i", "jk", "<Esc>")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
+vim.keymap.set("n", "<C-o>", "<C-o>zz")
+vim.keymap.set("n", "<C-i>", "<C-i>zz")
+
 vim.keymap.set("n", "J", "mzJ`z")
 
 vim.keymap.set("n", "n", "nzzzv")
