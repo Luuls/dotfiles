@@ -116,3 +116,7 @@ if ! shopt -oq posix; then
 fi
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
+
+set MAKEFILES=$HOME/default_makefile/makefile
+
+export QSYS_ROOTDIR="/home/luul/intelFPGA_lite/19.1/quartus/sopc_builder/bin"

@@ -98,3 +98,4 @@ alias la="ls -A"
 alias nvimconf="nvim $HOME/.config/nvim"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
+set MAKEFILES=/home/luul/default_makefile/makefile
