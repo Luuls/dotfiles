@@ -99,3 +99,10 @@ alias nvimconf="nvim $HOME/.config/nvim"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 set MAKEFILES=/home/luul/default_makefile/makefile
+export OVPN_PROFILE="$HOME/.openvpn-profile/rsa-UDP4-1194-luan.sm.ovpn"
+export VM_ADDR="labsec@150.162.56.65"
+export LAB_ADDR="150.162.56.86"
+export SYSTEMD_EDITOR=nvim
+
+alias sm_hdmi="xrandr --output HDMI-A-0 --primary --mode 1920x1080 --output DP2 --off --output eDP --off"
+alias sm_lap="xrandr --output eDP --primary --mode 1366x768 --output DP2 --off --output HDMI-A-0 --off"
